@@ -4,10 +4,12 @@ Band Trees allows users to discover new artists by showing who their favorite ar
 
 ## Installation
 
-No installation should be required, but if any errors pop up, try running `npm install` in either the root or client folder (depending on where the error came up).
+To install the back-end, run `npm install` from the root folder. To install the front-end, run `npm install` from the client folder.
 
 ## Usage
 
-1. Start the Express app by typing `PORT=3001 node bin/www` in your terminal. If you are using Windows, type `set PORT=3001 && node bin/www` instead.
+1. Start the Express app by typing `npm start` from the root folder.
 
-2. Start the React app by opening up a new terminal and typing `cd client` and then `npm start`.
+2. Then, start the React app by opening up a new Terminal to the client folder and typing `npm start` again.
+
+3. You can then use the app by going to http://localhost:3000/ in the web browser of your choice.
